@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div id="ano">
+            <p>Ano de Nascimento
+            <input type="number" name="anonasc" id="anonasc">
+            </p>
+            <p>Sexo:
+            <input type="radio" name="sexo" id="m" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="sexo" id="f">
+            <label for="fem">Feminino</label>
+            </p>
+            <p>
+            <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="msg">
+            Detectamos
+
+        </div>
+        <div id="res">
+            
+        </div>
+        <div id="foto">
+            <img id="imagem" src="bebeF.png" alt="foto">
+        </div>
+    </section>
+    <footer>
+        <p>Criado por Pingo em Junho 2023</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
